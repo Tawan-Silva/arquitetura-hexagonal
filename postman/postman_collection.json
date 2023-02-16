@@ -1,0 +1,544 @@
+{
+	"info": {
+		"_postman_id": "1c7f8932-8d90-45f0-a57b-c288f7e582d5",
+		"name": "Arquitetura Hexagonal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20378272"
+	},
+	"item": [
+		{
+			"name": "Delete Customers",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authority",
+						"value": "fa.blayzegames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "path",
+						"value": "/OnlineAccountSystem_NewFPS/reward_for_rewards.php?",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "scheme",
+						"value": "https",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept",
+						"value": "*/*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://games.crazygames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://games.crazygames.com/",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjM3Yjc1NDZmNzAyZWIzZjAyMmQzN2YzIiwidXNlcl9uYW1lIjoiVGF3YW4gU2lsdmEiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNjc0NTAwMjE0LCJhdXRob3JpdGllcyI6WyJST0xFX0NBTVBBTkhBX0NSRUFURSIsIlJPTEVfTUQ1IiwiUk9MRV9PTkVfQV9PTkUiLCJST0xFX1VTRVIiLCJST0xFX1dFQkhPT0siXSwianRpIjoiYjU2ZWZiMTktN2VmMC00ZTU4LTg3ZmItYWQxMDQ4NjM1N2JiIiwiY2xpZW50X2lkIjoiY2xpZW50SWQifQ.MKTPRB4Z0BBYev7bBiy7a6vH7iP4n_1pluMScQcb631Id07bjIllpLMWNaQOmZ438-drRTA7RYzXskykNplg0dasibvWtZstM004wrtx5mM05i8d_xzy721GUHfbJNDIILmNnn6E_lhfnkoPIrvq_6eX_hatm7zBG2ix10vBv2gh-bvA-DVEkItZxm4YTl8UjYcItpRFKfmrpsU8q-xEwu7Ia176gdh2o75Ykv7-ilZjbYOldyZ_lDmQhdbyane64wlMZPm0lyAMA9c8gLKKSt-6QU3QvKGBif4jCkUiZ-l0oei6H4gGxhsm57Aj2-LqUvxc0hmzP4whMpG_KZIPFw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/customers/63edb1e9603a477f4dd964e8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"63edb1e9603a477f4dd964e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Customers",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "authority",
+						"value": "fa.blayzegames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "path",
+						"value": "/OnlineAccountSystem_NewFPS/reward_for_rewards.php?",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "scheme",
+						"value": "https",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept",
+						"value": "*/*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://games.crazygames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://games.crazygames.com/",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjM3Yjc1NDZmNzAyZWIzZjAyMmQzN2YzIiwidXNlcl9uYW1lIjoiVGF3YW4gU2lsdmEiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNjc0NTAwMjE0LCJhdXRob3JpdGllcyI6WyJST0xFX0NBTVBBTkhBX0NSRUFURSIsIlJPTEVfTUQ1IiwiUk9MRV9PTkVfQV9PTkUiLCJST0xFX1VTRVIiLCJST0xFX1dFQkhPT0siXSwianRpIjoiYjU2ZWZiMTktN2VmMC00ZTU4LTg3ZmItYWQxMDQ4NjM1N2JiIiwiY2xpZW50X2lkIjoiY2xpZW50SWQifQ.MKTPRB4Z0BBYev7bBiy7a6vH7iP4n_1pluMScQcb631Id07bjIllpLMWNaQOmZ438-drRTA7RYzXskykNplg0dasibvWtZstM004wrtx5mM05i8d_xzy721GUHfbJNDIILmNnn6E_lhfnkoPIrvq_6eX_hatm7zBG2ix10vBv2gh-bvA-DVEkItZxm4YTl8UjYcItpRFKfmrpsU8q-xEwu7Ia176gdh2o75Ykv7-ilZjbYOldyZ_lDmQhdbyane64wlMZPm0lyAMA9c8gLKKSt-6QU3QvKGBif4jCkUiZ-l0oei6H4gGxhsm57Aj2-LqUvxc0hmzP4whMpG_KZIPFw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cátia Camara\",\r\n    \"zipCode\": \"38400000\",\r\n    \"cpf\": \"457454878124857\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/customers/63edb1e9603a477f4dd964e8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"63edb1e9603a477f4dd964e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Customers",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "fa.blayzegames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "path",
+						"value": "/OnlineAccountSystem_NewFPS/reward_for_rewards.php?",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "scheme",
+						"value": "https",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept",
+						"value": "*/*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://games.crazygames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://games.crazygames.com/",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjM3Yjc1NDZmNzAyZWIzZjAyMmQzN2YzIiwidXNlcl9uYW1lIjoiVGF3YW4gU2lsdmEiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNjc0NTAwMjE0LCJhdXRob3JpdGllcyI6WyJST0xFX0NBTVBBTkhBX0NSRUFURSIsIlJPTEVfTUQ1IiwiUk9MRV9PTkVfQV9PTkUiLCJST0xFX1VTRVIiLCJST0xFX1dFQkhPT0siXSwianRpIjoiYjU2ZWZiMTktN2VmMC00ZTU4LTg3ZmItYWQxMDQ4NjM1N2JiIiwiY2xpZW50X2lkIjoiY2xpZW50SWQifQ.MKTPRB4Z0BBYev7bBiy7a6vH7iP4n_1pluMScQcb631Id07bjIllpLMWNaQOmZ438-drRTA7RYzXskykNplg0dasibvWtZstM004wrtx5mM05i8d_xzy721GUHfbJNDIILmNnn6E_lhfnkoPIrvq_6eX_hatm7zBG2ix10vBv2gh-bvA-DVEkItZxm4YTl8UjYcItpRFKfmrpsU8q-xEwu7Ia176gdh2o75Ykv7-ilZjbYOldyZ_lDmQhdbyane64wlMZPm0lyAMA9c8gLKKSt-6QU3QvKGBif4jCkUiZ-l0oei6H4gGxhsm57Aj2-LqUvxc0hmzP4whMpG_KZIPFw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cátia\",\r\n    \"zipCode\": \"38400000\",\r\n    \"cpf\": \"457454878124857\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "fa.blayzegames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "path",
+						"value": "/OnlineAccountSystem_NewFPS/reward_for_rewards.php?",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "scheme",
+						"value": "https",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept",
+						"value": "*/*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://games.crazygames.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://games.crazygames.com/",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjM3Yjc1NDZmNzAyZWIzZjAyMmQzN2YzIiwidXNlcl9uYW1lIjoiVGF3YW4gU2lsdmEiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNjc0NTAwMjE0LCJhdXRob3JpdGllcyI6WyJST0xFX0NBTVBBTkhBX0NSRUFURSIsIlJPTEVfTUQ1IiwiUk9MRV9PTkVfQV9PTkUiLCJST0xFX1VTRVIiLCJST0xFX1dFQkhPT0siXSwianRpIjoiYjU2ZWZiMTktN2VmMC00ZTU4LTg3ZmItYWQxMDQ4NjM1N2JiIiwiY2xpZW50X2lkIjoiY2xpZW50SWQifQ.MKTPRB4Z0BBYev7bBiy7a6vH7iP4n_1pluMScQcb631Id07bjIllpLMWNaQOmZ438-drRTA7RYzXskykNplg0dasibvWtZstM004wrtx5mM05i8d_xzy721GUHfbJNDIILmNnn6E_lhfnkoPIrvq_6eX_hatm7zBG2ix10vBv2gh-bvA-DVEkItZxm4YTl8UjYcItpRFKfmrpsU8q-xEwu7Ia176gdh2o75Ykv7-ilZjbYOldyZ_lDmQhdbyane64wlMZPm0lyAMA9c8gLKKSt-6QU3QvKGBif4jCkUiZ-l0oei6H4gGxhsm57Aj2-LqUvxc0hmzP4whMpG_KZIPFw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/customers/63edb1e9603a477f4dd964e8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"63edb1e9603a477f4dd964e8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
